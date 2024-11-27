@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . . 
 
 # Install the dependencies
-RUN npm install package.json
+RUN npm install
 
 # Expose the port used by the application
 EXPOSE 5000

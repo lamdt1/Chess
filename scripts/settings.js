@@ -11,8 +11,7 @@ CHESSAPP.globalSettings = {
 	imageDir : "images/",
 	debug : false,
 	live: true,
-	port: 5000,
-	host: "http://kevinalbs.com:5000"
+	host: "https://chess.bmart.top"
 };
 
 var gameSettings = {

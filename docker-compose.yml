@@ -2,7 +2,7 @@ services:
   chess:
     image: chess:latest
     ports: 
-      - "80:5000"
+      - "8386:5000"
 
 volumes:
   data:

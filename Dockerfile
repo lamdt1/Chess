@@ -5,13 +5,13 @@ FROM node:14
 WORKDIR /app
 
 # Copy the package.json file to the working directory
-COPY package*.json./
+COPY package.json ./
 
 # Install the dependencies
-RUN npm install
+RUN npm install package.json
 
 # Copy the rest of the application code to the working directory
-COPY..
+COPY . .
 
 # Expose the port used by the application
 EXPOSE 5000

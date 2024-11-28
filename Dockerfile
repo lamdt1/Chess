@@ -5,10 +5,10 @@ FROM node:14
 WORKDIR /app
 
 # Remove all files
-RUN rm -rf *
+# RUN rm -rf *
 
 # Copy the package.json file to the working directory
-COPY . . 
+COPY . .
 
 # Install the dependencies
 RUN npm install

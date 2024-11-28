@@ -3,6 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      no-cache: true
     ports: 
       - "8386:5000"
 

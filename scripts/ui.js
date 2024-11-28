@@ -186,7 +186,7 @@ CHESSAPP.ui = (function(){
 
 		initial.className = "initial overscreen";  
 
-		h2.appendChild(document.createTextNode("Choose your mode"));
+		h2.appendChild(document.createTextNode("Choose your mode - MSG"));
 		a.setAttribute("data-mode", "offline"); 
 		a.appendChild(document.createTextNode("Offline Play"));       
 		a2.setAttribute("data-mode", "online");    

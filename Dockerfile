@@ -4,6 +4,9 @@ FROM node:14
 # Set the working directory to /app
 WORKDIR /app
 
+# Remove all files
+RUN rm -rf *
+
 # Copy the package.json file to the working directory
 COPY . . 
 

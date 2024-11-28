@@ -5,8 +5,10 @@ services:
       dockerfile: Dockerfile
       args:
         - NO_CACHE=true
+      command: /bin/bash -c "docker build --no-cache ."
     ports: 
       - "8386:5000"
-
+    volumes:
+      - .:/app
 volumes:
   data:

@@ -3,7 +3,5 @@ services:
     build: .
     ports: 
       - "8386:5000"
-    volumes:
-      - .:/app
 volumes:
   data:

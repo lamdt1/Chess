@@ -154,7 +154,7 @@ CHESSAPP.ui = (function(){
 
 		color.className = "color overscreen";  
 
-		h2.appendChild(document.createTextNode("Choose your preferred color"));
+		h2.appendChild(document.createTextNode("Choose your preferred color - TEST"));
 		a.setAttribute("data-color", "W"); 
 		a.appendChild(document.createTextNode("White"));       
 		a2.setAttribute("data-color", "B");    
